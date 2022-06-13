@@ -14,6 +14,12 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
+  servlet:
+    multipart:
+      max-file-size: 1MB
+      max-request-size: 10MB
+
+file: C:\Users\hjuhe\intellij_workspace\insta\src\main\resources\static
 
 # config 설정
 mybatis:
